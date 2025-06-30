@@ -133,11 +133,6 @@ Production runs on a local Kubernetes cluster (k3d) using the Helm chart in `paw
 - [ ] Tournaments
 
 > 🚧 Active development: New features are being added regularly.
----
-
-## 📃 License
-
-*This project is not currently open source.*
 
 ---
 
