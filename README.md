@@ -29,9 +29,10 @@ The main playing screen features a clean, distraction-free board UI with real-ti
 
 ![Gameplay](screenshots/game.png)
 
-#### Mobile
-
-![Mobile Gameplay](screenshots/game_mobile.png)
+<p align="center">
+  <img src="screenshots/game_mobile.png" width="200">
+  <br><em>Mobile Gameplay</em>
+</p>
 
 ---
 
@@ -40,9 +41,10 @@ Live Stockfish-powered analysis with evaluation bar and best move suggestions.
 
 ![Analysis Mode](screenshots/analysis.png)
 
-#### Mobile
-
-![Mobile Gameplay](screenshots/analysis_mobile.png)
+<p align="center">
+  <img src="screenshots/analysis_mobile.png" width="200">
+  <br><em>Mobile analysis</em>
+</p>
 
 ---
 
