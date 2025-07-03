@@ -48,19 +48,6 @@ Live Stockfish-powered analysis with evaluation bar and best move suggestions.
 
 ---
 
-## 📁 Monorepo Structure
-```
-/
-├── backend/                # FastAPI backend with WebSocket support
-├── frontend/               # Angular frontend using Angular Material
-├── analysis-worker/        # Simple python app for engine analysis with stockfish
-├── docker-compose.dev.yml  # Local dev environment with Docker Compose
-├── Jenkinsfile             # Jenkins pipeline for CI/CD
-├── pawncake-chart/         # Helm chart for Kubernetes deployment (k3d)
-└── README.md               # Project-level overview (this file)
-```
----
-
 ## 🧩 Key Features
 
 - Guest login with seamless upgrade to registered account
@@ -82,24 +69,6 @@ Live Stockfish-powered analysis with evaluation bar and best move suggestions.
 - **Dev Environment**: Docker Compose (`docker-compose.dev.yml`)
 - **Production Environment**: k3d + Helm + Jenkins
 - **CI/CD**: Jenkins (build, test, deploy)
-
----
-
-## 🚀 Getting Started
-
-### 🧪 Local Development
-
-Local development is supported via Docker Compose. The frontend and backend services can be started together for a unified development environment.
-
-```bash
-docker compose -f docker-compose.dev.yml up --build
-```
-
----
-
-### 🛰️ Production
-
-Production runs on a local Kubernetes cluster (k3d) using the Helm chart in `pawncake-chart/`. CI/CD is handled through Jenkins, using the `Jenkinsfile` in the root of the repository.
 
 ---
 
