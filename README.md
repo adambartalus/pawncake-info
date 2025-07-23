@@ -56,6 +56,7 @@ Live Stockfish-powered analysis with evaluation bar and best move suggestions.
 - Clean UI using Angular Material 3
 - PWA support for installable experience
 - Designed for both casual play and future puzzle/training modes
+- Option to upload profile picture (avatar) to personalize your account
 
 ---
 
@@ -81,15 +82,6 @@ Live Stockfish-powered analysis with evaluation bar and best move suggestions.
 
 ---
 
-## 🛠️ Deployment & Infrastructure
-
-- Separate pipelines for test and production environments
-- The `develop` branch deploys to test; the `main` branch is used for production
-- Nginx reverse proxy is used in production for unified routing
-- Redis is used for matchmaking and coordination across services
-
----
-
 ## 🛣️ Roadmap
 
 - [x] Authentication
@@ -97,6 +89,8 @@ Live Stockfish-powered analysis with evaluation bar and best move suggestions.
 - [x] Time controls (e.g. 3+2, 5+0)
 - [x] Premove
 - [x] Engine analysis
+- [x] Profile picture upload
+- [ ] Avatar display in matches
 - [ ] Puzzle mode
 - [ ] Spectator mode
 - [ ] Tournaments
