@@ -69,7 +69,7 @@ Live Stockfish-powered analysis with evaluation bar and best move suggestions.
 - **Cache / Queue**: Redis (matchmaking, locks, Pub/Sub)
 - **Dev Environment**: Docker Compose (`docker-compose.dev.yml`)
 - **Production Environment**: k3d + Helm + Jenkins
-- **CI/CD**: Jenkins (build, test, deploy)
+- **CI/CD**: Jenkins (test, build), ArgoCD (deploy)
 
 ---
 
@@ -90,9 +90,9 @@ Live Stockfish-powered analysis with evaluation bar and best move suggestions.
 - [x] Premove
 - [x] Engine analysis
 - [x] Profile picture upload
-- [ ] Avatar display in matches
+- [x] Avatar display in matches
 - [ ] Puzzle mode
-- [ ] Spectator mode
+- [x] Spectator mode
 - [ ] Tournaments
 
 > 🚧 Active development: New features are being added regularly.
