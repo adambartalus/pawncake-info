@@ -1,6 +1,6 @@
 # ♟️ Pawncake
 
-**Pawncake** is a real-time multiplayer chess web app with guest accounts, engine-powered analysis, PWA support, and a modern UI — built with Angular, FastAPI, Redis, and Kubernetes.
+**Pawncake** is a real-time multiplayer chess web app with guest accounts, engine-powered analysis, PWA support, and a modern UI — built with Angular, FastAPI, PostgreSQL and Redis.
 
 📌 **Note**: This repository is for informational purposes only. The source code is private.
 
