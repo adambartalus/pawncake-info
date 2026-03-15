@@ -68,8 +68,8 @@ Live Stockfish-powered analysis with evaluation bar and best move suggestions.
 - **Database**: PostgreSQL
 - **Cache / Queue**: Redis (matchmaking, locks, Pub/Sub)
 - **Dev Environment**: Docker Compose (`docker-compose.dev.yml`)
-- **Production Environment**: k3d + Helm + Jenkins
-- **CI/CD**: Jenkins (test, build), ArgoCD (deploy)
+- **Production Environment**: docker compose stack
+- **CI/CD**: Jenkins (test, build)
 
 ---
 
