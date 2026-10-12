@@ -91,7 +91,7 @@ Live Stockfish-powered analysis with evaluation bar and best move suggestions.
 - [x] Engine analysis
 - [x] Profile picture upload
 - [x] Avatar display in matches
-- [ ] Puzzle mode
+- [x] Puzzle mode
 - [x] Spectator mode
 - [ ] Tournaments
 
